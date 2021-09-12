@@ -15,5 +15,9 @@ $(document).ready(function(){
         $("#whatwedo2").slideUp('2000');
         $("#devicon").slideDown('2000');
     });
+    $("#producticon").click(function () {
+        $("#producticon").slideDown('2000').hide('1500');
+        $("#whatwedo3").show('2000');
+    });
     
 });   
