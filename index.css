@@ -100,3 +100,8 @@ input[type=text],input[type=email],#message{
 #name{
     padding-right: 20px;
 }
+button{
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
