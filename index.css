@@ -114,3 +114,21 @@ footer{
 footer>p{
     margin-top: 20px;
 }
+.col-md-3{
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50%;
+}
+#projects{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.portfolio{
+    margin-left:10%;
+    margin-right: 10%; 
+}
+.portfolio img{
+    width: 200px;
+}
