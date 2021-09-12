@@ -19,5 +19,8 @@ $(document).ready(function(){
         $("#producticon").slideDown('2000').hide('1500');
         $("#whatwedo3").show('2000');
     });
-    
-});   
+    $("#whatwedo3").click(function () {
+        $("#whatwedo3").slideUp('2000');
+        $("#producticon").slideDown('2000');
+    });
+});
