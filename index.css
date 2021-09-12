@@ -81,4 +81,9 @@
     font-weight: lighter;
     text-align: center;
 }
+.form-group{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
    
