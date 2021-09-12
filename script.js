@@ -24,3 +24,11 @@ $(document).ready(function(){
         $("#producticon").slideDown('2000');
     });
 });
+$(document).ready(function () {
+    $("form#contactform").submit(function () {
+        var name = $("input#name").val();
+        var email = $("input#email").val();
+        var message = $("textarea#message").val();
+        
+    });
+}); 
