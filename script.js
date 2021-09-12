@@ -7,5 +7,13 @@ $(document).ready(function(){
         $("#whatwedo1").slideUp('1000');
         $("#designicon").slideDown('1000');
     });
+    $("#devicon").click(function () {
+        $("#devicon").slideDown('2000').hide('1500');
+        $("#whatwedo2").show('2000');
+    });
+    $("#whatwedo2").click(function () {
+        $("#whatwedo2").slideUp('2000');
+        $("#devicon").slideDown('2000');
+    });
     
 });   
