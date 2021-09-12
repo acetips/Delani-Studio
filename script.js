@@ -37,3 +37,53 @@ $(document).ready(function () {
         }
     });
 }); 
+$(document).ready(function () {
+
+    $("#blackstudio").mouseover(function () {
+        $("#p1").show().css("background-color","white");
+    }).mouseout(function () {
+        $("#p1").hide();
+    });
+
+    $("#ontariosecurity").mouseover(function () {
+        $("#p2").show();
+    }).mouseout(function () {
+        $("#p2").hide();
+    });
+
+    $("#pyramid").mouseover(function () {
+        $("#p3").show();
+    }).mouseout(function () {
+        $("#p3").hide();
+    }); 
+
+    $("#jimcarrey").mouseover(function () {
+        $("#p4").show();
+    }).mouseout(function () {
+        $("#p4").hide();
+    });
+
+    $("#goodday").mouseover(function () {
+        $("#p5").show();
+    }).mouseout(function () {
+        $("#p5").hide();
+    });
+
+    $("#calculator").mouseover(function () {
+        $("#p6").show();
+    }).mouseout(function () {
+        $("#p6").hide();
+    });
+
+    $("#burned").mouseover(function () {
+        $("#p7").show();
+    }).mouseout(function () {
+        $("#p7").hide();
+    });
+
+    $("#baileywonger").mouseover(function () {
+        $("#p8").show();
+    }).mouseout(function () {
+        $("#p8").hide();
+    });
+});
