@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("assets/h_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 200px;
+}
