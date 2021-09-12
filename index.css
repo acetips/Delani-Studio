@@ -55,10 +55,11 @@
 .services>h2{
     padding-top: 10px;
     margin-bottom: -16px;
+    padding-bottom: 20px;
 }
 .services>p{
-    line-height: 20px;
-    font-weight: 300
+    line-height: 12px;
+    font-weight: 400;
 }
 .whatwedo>h2{
     text-align: center;
