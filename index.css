@@ -8,3 +8,30 @@
     background-attachment: fixed;
     padding: 200px;
 }
+.mouseclick{
+    padding-top: 80px;
+    animation: jump 2s infinite;
+}
+@keyframes jump{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform:translateY(0);
+    }
+    40%{
+        transform: translateY(-55px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-45px);
+    }
+    75%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-45px);
+    }
+}
